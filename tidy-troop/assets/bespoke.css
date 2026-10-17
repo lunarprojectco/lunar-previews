@@ -1,0 +1,49 @@
+@font-face{font-family:Muli;src:url('Muli-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Muli;src:url('Muli-500.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:Muli;src:url('Muli-700.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:Muli;src:url('Muli-800.woff2') format('woff2');font-weight:800;font-display:swap}
+body.tidy[data-brand]{--paper:#f4f9fc;--ink:#092b40;--muted:#2d5268;--accent:#0577bd;--line:#a9c9dc;--panel:#e4f3fb;--display:Muli,Arial,sans-serif;font-family:Muli,Arial,sans-serif}
+body.tidy h1,body.tidy h2,body.tidy h3,body.tidy .band strong,body.tidy .form-heading{font-family:Muli,Arial,sans-serif;letter-spacing:-.035em}
+body.tidy .preview{background:#0266ad;color:#fff}
+body.tidy header.wrap{width:100%;max-width:none;min-height:92px;padding:10px max(22px,calc((100vw - 1280px)/2));background:#031219;color:#fff}
+body.tidy header .brand-identity .logo-surface{background:#031219;padding:0;border-radius:0}
+body.tidy header .brand-identity img.brand-logo{width:245px;height:auto;max-width:100%}
+body.tidy header nav .button{background:#087cc1;color:#fff;border-color:#087cc1;border-radius:4px}
+body.tidy header nav>a:not(.button){color:#fff}
+body.tidy main.wrap{width:100%;max-width:none}
+body.tidy .hero{position:relative;isolation:isolate;display:flex;align-items:flex-end;min-height:min(690px,calc(100dvh - 125px));padding:64px max(24px,calc((100vw - 1280px)/2));overflow:hidden;color:#fff}
+body.tidy .hero:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(3,18,25,.84),rgba(3,18,25,.5) 54%,rgba(3,18,25,.1)),linear-gradient(0deg,rgba(3,18,25,.55),transparent 50%)}
+body.tidy .hero figure{position:absolute;inset:0;z-index:-2}
+body.tidy .hero-media{height:100%;border:0;border-radius:0}
+body.tidy .hero-media img{height:100%;width:100%;object-position:center 59%}
+body.tidy .hero-copy{position:relative;max-width:750px}
+body.tidy .hero h1{max-width:760px;font-size:clamp(44px,5.2vw,74px);line-height:1.05;color:#fff;margin:0 0 22px}
+body.tidy .hero h1 em{font-style:normal;color:#b6eaff}
+body.tidy .hero p{color:#fff;max-width:48ch;font-size:18px}
+body.tidy .hero .caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+body.tidy .button{border-radius:4px;background:#0266ad;border-color:#0266ad;color:#fff}
+body.tidy .button.secondary{background:rgba(3,18,25,.5);border-color:#fff;color:#fff}
+body.tidy .band,body.tidy main>.section{width:min(1280px,calc(100% - 80px));margin-inline:auto}
+body.tidy[data-brand] .band{background:#d8eef9;color:#092b40;border-radius:0;margin-top:0;padding:28px 34px;border-bottom:3px solid #0266ad}
+body.tidy[data-brand] .band p{color:#2d5268}
+body.tidy .services{grid-template-columns:1.15fr .85fr;gap:18px}
+body.tidy[data-brand] .service,body.tidy[data-brand] .service:nth-child(n){background:#fff;border:1px solid #c8dfeb;border-radius:4px;min-height:0}
+body.tidy[data-brand] .service:first-child{background:#e4f3fb}
+body.tidy .service a{color:#0266ad}
+body.tidy .quote{border-radius:4px;background:#e4f3fb}
+body.tidy .quote .button.secondary{background:transparent;color:#092b40}
+body.tidy .form-grid input,body.tidy .form-grid select,body.tidy .form-grid textarea{border-radius:4px;background:#fff;border-color:#769caf}
+body.tidy footer{background:#031219;color:#d8eaf3;border-color:#031219}
+body.tidy footer .footer-note{color:#d8eaf3}
+@media(max-width:767px){
+ body.tidy header.wrap{min-height:80px;padding:8px 18px}
+ body.tidy header .brand-identity img.brand-logo{width:170px;height:auto}
+ body.tidy .hero{min-height:min(680px,calc(100dvh - 115px));padding:36px 20px 48px;justify-content:flex-end}
+ body.tidy .hero h1{font-size:clamp(37px,9.5vw,57px);max-width:100%}
+ body.tidy .hero p{font-size:16px}
+ body.tidy .hero:before{background:linear-gradient(0deg,rgba(3,18,25,.88),rgba(3,18,25,.4) 72%,rgba(3,18,25,.2))}
+ body.tidy .band,body.tidy main>.section{width:calc(100% - 36px)}
+ body.tidy[data-brand] .band{padding:24px;gap:16px}
+ body.tidy .services{grid-template-columns:1fr}
+ body.tidy .hero .actions{grid-template-columns:1fr 1fr}
+}

@@ -1,0 +1,47 @@
+@font-face{font-family:Poppins;src:url('Poppins-300.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:Poppins;src:url('Poppins-600.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:Poppins;src:url('Poppins-700.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:OpenSans;src:url('OpenSans-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:OpenSans;src:url('OpenSans-600.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:OpenSans;src:url('OpenSans-700.woff2') format('woff2');font-weight:700;font-display:swap}
+body.brite[data-brand]{--paper:#fff;--ink:#123657;--muted:#35566c;--accent:#075b91;--line:#bbd2e2;--panel:#eff7fb;--display:Poppins,Arial,sans-serif;font-family:OpenSans,Arial,sans-serif}
+body.brite h1,body.brite h2,body.brite h3,body.brite .band strong,body.brite .form-heading{font-family:Poppins,Arial,sans-serif;letter-spacing:-.035em}
+body.brite .preview{background:#0b5c92;color:#fff}
+body.brite header.wrap{width:100%;max-width:none;min-height:90px;padding:9px max(22px,calc((100vw - 1280px)/2));background:#fff}
+body.brite header .logo-surface{padding:0;background:#fff;border-radius:0}
+body.brite header img.brand-logo{width:205px;height:auto;max-width:100%}
+body.brite header nav .button{background:#075b91;border-color:#075b91;color:#fff}
+body.brite main.wrap{width:100%;max-width:none}
+body.brite .hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:min(690px,calc(100dvh - 125px));padding:56px max(24px,calc((100vw - 1280px)/2));overflow:hidden;color:#fff}
+body.brite .hero:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(16,30,70,.9),rgba(30,54,99,.69) 47%,rgba(30,54,99,.07) 83%)}
+body.brite .hero figure{position:absolute;inset:0;z-index:-2}
+body.brite .hero-media{height:100%;border-radius:0}
+body.brite .hero-media img{height:100%;width:100%;object-position:center 52%}
+body.brite .hero-top{display:block;position:relative;max-width:750px;margin:0}
+body.brite .hero h1{max-width:750px;font-size:clamp(42px,4.8vw,66px);line-height:1.08;font-weight:600;color:#fff;margin-bottom:22px}
+body.brite .hero h1 em{font-style:normal;color:#fff}
+body.brite .hero-top p{font-size:18px;max-width:45ch;color:#fff}
+body.brite .hero .caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+body.brite .button{background:#075b91;border-color:#075b91;color:#fff}
+body.brite .hero .button{background:#fff;border-color:#fff;color:#143b59}
+body.brite .hero .button.secondary{background:rgba(20,44,76,.5);border-color:#fff;color:#fff}
+body.brite .band,body.brite main>.section{width:min(1280px,calc(100% - 80px));margin-inline:auto}
+body.brite .band{border-top:3px solid #21a3d8;padding-top:34px}
+body.brite .services{display:block}
+body.brite .service{border-top:1px solid #bbd2e2}
+body.brite .service h3{font-weight:600}
+body.brite .service a{color:#075b91}
+body.brite .quote{background:#eff7fb;border-left:5px solid #075b91}
+body.brite input,body.brite select,body.brite textarea{background:#fff;border-color:#759ab3}
+@media(max-width:767px){
+ body.brite header.wrap{min-height:78px;padding:8px 18px}
+ body.brite header img.brand-logo{width:150px;height:auto}
+ body.brite .hero{min-height:min(690px,calc(100dvh - 115px));padding:40px 20px}
+ body.brite .hero:before{background:linear-gradient(0deg,rgba(16,30,70,.86),rgba(16,30,70,.57) 70%,rgba(16,30,70,.2))}
+ body.brite .hero-top{max-width:100%}
+ body.brite .hero h1{font-size:clamp(36px,8.9vw,56px);max-width:100%}
+ body.brite .hero-top p{font-size:16px}
+ body.brite .hero-media img{object-position:62% center}
+ body.brite .band,body.brite main>.section{width:calc(100% - 36px)}
+ body.brite .hero .actions{display:grid;grid-template-columns:1fr 1fr}
+}
