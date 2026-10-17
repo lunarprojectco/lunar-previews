@@ -45,3 +45,5 @@ body.brite input,body.brite select,body.brite textarea{background:#fff;border-co
  body.brite .band,body.brite main>.section{width:calc(100% - 36px)}
  body.brite .hero .actions{display:grid;grid-template-columns:1fr 1fr}
 }
+body.brite .automation-form{display:block;width:100%;height:1720px;border:0;background:#101827}
+@media(max-width:767px){body.brite .automation-form{height:2550px}}

@@ -41,6 +41,19 @@ body.tidy[data-brand] .service,body.tidy[data-brand] .service:nth-child(n){backg
 body.tidy[data-brand] .service:first-child{background:#e4f3fb}
 body.tidy .service a{color:#0266ad}
 body.tidy .quote{border-radius:4px;background:#e4f3fb}
+body.tidy .automation-form{display:block;width:100%;height:1720px;border:0;border-radius:4px;background:#101827}
+body.tidy .geo-report-modal{width:min(620px,calc(100% - 32px));max-height:calc(100dvh - 32px);overflow:auto;margin:auto;padding:30px;background:#fff;color:#092b40;border:1px solid #a9c9dc;border-top:5px solid #0266ad;border-radius:4px;box-shadow:0 24px 80px rgba(3,18,25,.35)}
+body.tidy .geo-report-modal::backdrop{background:rgba(3,18,25,.72);backdrop-filter:blur(5px)}
+body.tidy .geo-report-modal-head{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:#0266ad}
+body.tidy .geo-report-close{font:inherit;font-size:13px;letter-spacing:0;text-transform:none;border:1px solid #a9c9dc;background:#fff;color:#092b40;border-radius:4px;padding:10px 14px;cursor:pointer}
+body.tidy .geo-report-close:hover,body.tidy .geo-report-close:focus-visible{border-color:#0266ad;outline-offset:3px}
+body.tidy .geo-report-modal h2{font-size:clamp(28px,5vw,40px);line-height:1.12;margin:32px 0 8px;color:#092b40}
+body.tidy .geo-report-modal p{color:#2d5268;line-height:1.6}
+body.tidy .geo-report-domain{margin:0 0 26px;font-size:14px}
+body.tidy .geo-report-finding{background:#e4f3fb;border-left:4px solid #0266ad;padding:20px;margin-bottom:24px}
+body.tidy .geo-report-finding strong{display:block;font-size:19px}
+body.tidy .geo-report-finding p{margin:8px 0 0}
+body.tidy .geo-report-modal>.button{display:inline-flex;margin-top:14px;text-decoration:none}
 body.tidy .quote .button.secondary{background:transparent;color:#092b40}
 body.tidy .form-grid input,body.tidy .form-grid select,body.tidy .form-grid textarea{border-radius:4px;background:#fff;border-color:#769caf}
 body.tidy footer{background:#031219;color:#d8eaf3;border-color:#031219}
@@ -57,6 +70,8 @@ body.tidy footer .footer-note{color:#d8eaf3}
  body.tidy .trust-strip{width:calc(100% - 36px);margin-top:28px;padding:26px 22px;display:block}
  body.tidy .trust-intro h2{font-size:30px}
  body.tidy .trust-points{grid-template-columns:1fr;gap:16px;margin:26px 0}
+ body.tidy .automation-form{height:2550px}
+ body.tidy .geo-report-modal{padding:22px}
  body.tidy .services{grid-template-columns:1fr}
  body.tidy .hero .actions{grid-template-columns:1fr 1fr}
 }

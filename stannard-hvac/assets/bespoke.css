@@ -40,3 +40,5 @@ body[data-brand=stannard-hvac] .contact-section{background:#eaf0f2}
  body[data-brand=stannard-hvac] .hero .actions{display:grid;grid-template-columns:1fr 1fr}
  body[data-brand=stannard-hvac] .hero .button{white-space:normal;text-align:center}
 }
+body[data-brand=stannard-hvac] .automation-form{display:block;width:100%;height:1720px;border:0;background:#101827}
+@media(max-width:767px){body[data-brand=stannard-hvac] .automation-form{height:2550px}}
