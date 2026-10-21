@@ -1,0 +1,57 @@
+/* Source identity: detaildashauto.com, rendered October 20, 2026.
+   Native CSS preservation pass. Variance 4 / motion 2 / density 4.
+   Navy and orange, DM Sans. The photograph remains credited stock. */
+@font-face{font-family:"DM Sans";src:url(DMSans-variable.woff2) format("woff2");font-weight:100 1000;font-display:swap}
+body.dash[data-brand]{--paper:#f8fafc;--ink:#13233d;--muted:#4e6079;--accent:#fb923c;--line:#ccd6e3;--panel:#eef2f7;--display:"DM Sans",Arial,sans-serif;font-family:var(--display);color-scheme:light}
+body.dash .brand-identity .brand-name{font-family:var(--display);color:#13233d;font-size:24px;max-width:none}
+body.dash .brand-identity .brand-symbol{color:#fff;background:#082b63}
+body.dash header.wrap{min-height:80px;padding-block:12px}
+body.dash .preview{background:#eef2f7;color:#4e6079}
+body.dash .button{border-radius:6px;min-height:48px;gap:10px}
+body.dash .button:not(.secondary){background:#fb923c;border-color:#fb923c;color:#13233d}
+body.dash .button:not(.secondary):hover{background:#ffac67;border-color:#ffac67}
+body.dash main.wrap{width:100%;max-width:none}
+body.dash main>.section,body.dash main>.band{width:min(1200px,calc(100% - 80px));margin-inline:auto}
+body.dash .hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:600px;padding:70px max(40px,calc((100vw - 1200px)/2));background:#082b63;color:#fff;overflow:hidden}
+body.dash .hero figure{position:absolute;inset:0;z-index:-2}
+body.dash .hero .hero-media{height:100%;border-radius:0}
+body.dash .hero .hero-media img{width:100%;height:100%;object-fit:cover;object-position:65% 50%}
+body.dash .hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,24,53,.96),rgba(5,24,53,.85) 36%,rgba(5,24,53,.25))}
+body.dash .hero-copy{max-width:730px;padding:0}
+body.dash .hero h1{font-size:clamp(38px,5.1vw,72px);line-height:1.07;letter-spacing:-.045em;max-width:19ch}
+body.dash .hero p{color:#e5edf7;max-width:40ch;font-size:19px;line-height:1.6}
+body.dash .hero .eyebrow{font-size:12px;letter-spacing:.1em;margin-bottom:22px}
+body.dash .hero .button.secondary{border-color:#bdcadb;color:#fff;background:rgba(5,24,53,.65)}
+body.dash .hero .button.secondary:hover{background:#082b63}
+body.dash .hero .caption{position:absolute;bottom:14px;right:24px;color:#fff;font-size:12px;padding:3px 8px;background:#082b63}
+body.dash .band{padding:30px 0;gap:32px}
+body.dash .band strong{color:#082b63}
+body.dash .section{padding:76px 0}
+body.dash h2{font-size:clamp(32px,3.6vw,50px);line-height:1.12;letter-spacing:-.035em}
+body.dash .services{column-gap:56px}
+body.dash .service{grid-template-columns:112px 1fr;gap:24px;padding:28px 0}
+body.dash .service img{width:112px;height:132px;border-radius:6px}
+body.dash .service h3{font-size:24px}
+body.dash .service a{color:#082b63}
+body.dash .quote{padding:40px;gap:40px;border-top:3px solid #fb923c;border-radius:6px;grid-template-columns:.8fr 1.2fr}
+body.dash .automation-form{width:100%;height:1720px;border:0;background:#fff;border-radius:6px}
+body.dash footer{background:#eef2f7;color:#13233d}
+body.dash footer .footer-note{color:#4e6079}
+body.dash ::selection{background:#fb923c;color:#13233d}
+@media(max-width:767px){
+ body.dash header.wrap{width:calc(100% - 36px);min-height:76px;gap:12px}
+ body.dash .brand-identity .brand-name{font-size:20px}
+ body.dash .hero{min-height:500px;padding:48px 20px 64px;justify-content:center;align-items:flex-start}
+ body.dash .hero h1{font-size:clamp(34px,9vw,48px);max-width:100%}
+ body.dash .hero p{font-size:17px}
+ body.dash .hero:before{background:linear-gradient(90deg,rgba(5,24,53,.94),rgba(5,24,53,.74))}
+ body.dash .hero .actions{display:flex;gap:12px}
+ body.dash .hero .actions .button{font-size:14px;padding:13px 15px}
+ body.dash .hero .caption{left:20px;right:auto;max-width:calc(100% - 40px);font-size:11px}
+ body.dash main>.section,body.dash main>.band{width:calc(100% - 36px)}
+ body.dash .section{padding:48px 0}
+ body.dash .service{grid-template-columns:84px 1fr;gap:18px}
+ body.dash .service img{width:84px;height:120px}
+ body.dash .quote{grid-template-columns:1fr;padding:24px 18px;gap:28px}
+ body.dash .automation-form{height:2550px}
+}
